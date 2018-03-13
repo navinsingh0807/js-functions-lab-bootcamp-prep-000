@@ -5,14 +5,19 @@ function happyHolidays(){
 console.log(happyHolidays())
 
 function happyHolidaysTo(name){
-  var Name = name
-  return "Happy holidays, ${Name} !"
+  return "Happy holidays, "+ name +"!"
 }
 
 console.log(happyHolidaysTo("Navin"))
 
-function holidayCountdown(days , holiday){
-  return("It's ${days} days until ${holiday}! ")
+function happyHolidayTo(holiday, name){
+  return "Happy " +holiday+", " +name+ "!"
+}
+
+console.log(happyHolidayTo("christmas","Navin"))
+
+function holidayCountdown(holiday , days){
+  return "It's " +days +" days until " +holiday+"!"
 }
 
 console.log(holidayCountdown("5","Christmas"))
